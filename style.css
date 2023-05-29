@@ -1,0 +1,134 @@
+*{
+   margin:0%;
+   padding:0%;
+   box-sizing: border-box; 
+}
+html,body{
+    width:100%;
+    height:100%;
+
+}
+#main{
+    width:100%;
+    background-color:#f5f7f0;
+}
+#nav{
+    width:100%;
+    height: 7vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 5vw ;
+    background-color:#f5f7f0;
+}
+
+#nav #links{
+    display:flex;
+    gap:30px;
+
+}
+#nav h3{
+    font-size: 25px;
+    font-weight: 300;
+    font-family:"gilroy" ;
+}
+#nav h3 span{
+    font-weight: 700;
+}
+#nav #links a{
+    font-size:15px ;
+    font-weight: 500;
+    color:black;
+    text-decoration: none;
+    font-family: "gilroy";
+}
+
+#text{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background-color:#f5f7f0 ;
+    padding-top: 70px;
+}
+#text h1{
+font-size: 50px;
+font-weight: 600;
+font-family: "playfair display";
+margin-bottom:25px ;
+color: black;
+}
+#text p{
+    font-size: 18px;
+    font-family: "gilroy";
+    width: 500px;;
+    margin:0 auto;
+    margin-bottom: 20px;
+    padding:15px 0;
+    color:black;
+}
+#text button{
+    padding:12px 32px;
+    background-color:#f5f7f0;
+    color:#fff ;
+    border-radius: 100px;
+    color:black;
+}
+#picture img{
+    width:100%;
+}
+#descr{
+width:100%;
+padding: 5vh 6vw;
+font-family:"Gilroy";
+display: flex;
+background-color:#f5f7f0;
+}
+
+#descr #left {
+    width:50%;
+    border-right: 3px solid black;
+    padding-right:30px ;
+    
+}
+#descr #left #text1{
+    padding-left: 170px;
+    color: black;
+}
+#descr #right{
+    width:50%;
+    padding-left:30px ;
+}
+#right #dayr {
+    display: flex;
+    gap:30px; 
+    margin-bottom: 20px;
+}
+#right #dayr1{
+display:flex;
+gap :30px;
+}
+#right #dayr #right1 h3{
+font-size: 15px;
+font-weight: 700;
+color: black;
+}
+#right #dayr #right1 p{
+    font-size: 12px;
+    font-weight: 300;
+    color:black;
+}
+
+#right #dayr1 #right2 h4{
+    font-size: 15px;
+    font-weight:700px ;
+    color: black;
+}
+#right #dayr1 #right2 p{
+    font-size: 12px;
+    font-weight: 300;
+    color: black;
+}
+ #bigpicture img{
+    width:100%;
+
+}
